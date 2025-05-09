@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ando Sato - Modern Creative Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for the blockquote */
+        .post-blockquote {
+            background-color: #f3e8ff; /* Light purple background */
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #8b5cf6; /* Purple border */
+            font-style: italic;
+            color: #4c1d95; /* Dark purple text */
+            font-size: 1.25rem; /* Large text */
+            line-height: 1.75rem;
+            position: relative; /* Needed for the quote icon positioning */
+        }
+
+        .post-blockquote::before {
+            content: '“'; /* Opening quote */
+            font-size: 4rem; /* Large quote icon */
+            color: rgba(139, 92, 246, 0.5); /* Semi-transparent purple */
+            position: absolute;
+            left: 1rem;
+            top: 0.5rem;
+            line-height: 1;
+        }
+
+         .post-blockquote p {
+            margin-left: 2rem; /* Indent text to make space for the quote icon */
+         }
+         /* Ensure body uses Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="container mx-auto px-4 py-6 flex items-center justify-between w-full md:w-4/5">
+        <div class="text-xl font-bold">ANDO.</div>
+        <nav class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-gray-900">Demos</a>
+            <a href="#" class="hover:text-gray-900">Features</a>
+            <a href="#" class="hover:text-gray-900">Reasoning</a>
+            <a href="#" class="hover:text-gray-900">Projects</a>
+            <a href="#" class="hover:text-gray-900">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <button class="p-2 rounded-full hover:bg-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+            <button class="p-2 rounded-full hover:bg-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </button>
+            <button class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition duration-300 ease-in-out">
+                Buy Now >
+            </button>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 md:py-24 flex flex-col md:flex-row items-center md:justify-between w-full md:w-4/5">
+        <div class="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Hello! I'm Ando Sato</h1>
+            <h2 class="text-2xl md:text-3xl text-gray-700 mb-6">Modern Creative Designer</h2>
+            <p class="text-lg text-gray-600 mb-8">
+                I am a design leader, advisor, and operator with expertise in brand, product, and design systems.
+            </p>
+            <div class="flex items-center justify-center md:justify-start text-gray-600 mb-4">
+                <span class="inline-block w-3 h-3 bg-green-500 rounded-full mr-2"></span>
+                Available <span class="mx-2">•</span> Tokyo, Japan
+            </div>
+            <button class="bg-purple-600 text-white px-6 py-3 rounded-full text-lg hover:bg-purple-700 transition duration-300 ease-in-out">
+                Get in Touch >
+            </button>
+        </div>
+        <div class="md:w-1/2 flex justify-center md:justify-end">
+            <img src="https://placehold.co/400x400/E5E7EB/1F2937?text=Ando+Sato" alt="Ando Sato" class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover"/>
+        </div>
+    </main>
+
+    <section class="container mx-auto px-4 py-12 md:py-16 w-full md:w-4/5">
+        <h3 class="text-xl font-semibold mb-8">• CASE STUDIES</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 rounded-lg border-b border-gray-200">
+                <div class="flex items-center mb-4">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H5V5.5z"/><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H5v-3.5z"/><path d="M12 16.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/></svg>
+                    <a href="#" class="ml-3 text-lg font-semibold hover:underline">UX Odyssey →</a>
+                </div>
+                <p class="text-sm text-gray-600 mb-4">double.studio.com</p>
+                <p class="text-gray-700">The strategic objective was to attract upmarket...</p>
+            </div>
+
+            <div class="p-6 rounded-lg border-b border-gray-200">
+                 <div class="flex items-center mb-4">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                    <a href="#" class="ml-3 text-lg font-semibold hover:underline">Design in Motion →</a>
+                 </div>
+                 <p class="text-sm text-gray-600 mb-4">double.studio.com</p>
+                <p class="text-gray-700">The strategic objective was to attract upmarket...</p>
+            </div>
+
+            <div class="p-6 rounded-lg border-b border-gray-200">
+                 <div class="flex items-center mb-4">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucude-pen-tool"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L18 13z"/><path d="m2 2 7.586 7.586"/><path d="m10.42 12.58 1.92-1.92"/></svg>
+                    <a href="#" class="ml-3 text-lg font-semibold hover:underline">Digital Canvas →</a>
+                 </div>
+                 <p class="text-sm text-gray-600 mb-4">double.studio.com</p>
+                <p class="text-gray-700">The strategic objective was to attract upmarket...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 md:py-16 w-full md:w-4/5">
+        <div class="flex justify-between items-center mb-8">
+            <h3 class="text-xl font-semibold">• PERSONAL GUIDES</h3>
+            <a href="#" class="text-purple-600 hover:underline">View All Posts</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="rounded-lg overflow-hidden border-b border-gray-200">
+                <img src="https://placehold.co/600x400/E5E7EB/1F2937?text=Featured+Post+Image" alt="Featured Post Image" class="w-full h-64 object-cover"/>
+                <div class="p-6">
+                    <h4 class="text-xl font-semibold mb-2"><a href="#">Sample Featured Post Title</a></h4>
+                    <p class="text-gray-700 mb-4">This is a short snippet of the featured blog post content...</p>
+                    <p class="text-sm text-gray-600">August 31, 2024 • 7 min read</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="mb-6 pb-6 border-b border-gray-200">
+                    <h4 class="text-xl font-semibold mb-2"><a href="#">Sample Recent Post 1 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 30, 2024 • 5 min read</p>
+                </div>
+                 <div class="mb-6 pb-6 border-b border-gray-200">
+                    <h4 class="text-xl font-semibold mb-2"><a href="#">Sample Recent Post 2 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 29, 2024 • 6 min read</p>
+                </div>
+                 <div class="mb-6 pb-6 border-b border-gray-200">
+                    <h4 class="text-xl font-semibold mb-2"><a href="#">Sample Recent Post 3 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 28, 2024 • 4 min read</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-12 md:py-16 w-full md:w-4/5">
+        <h3 class="text-xl font-semibold mb-8">• EXPLORE LATEST POSTS</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="rounded-lg overflow-hidden border-b border-gray-200">
+                 <img src="https://placehold.co/600x400/E5E7EB/1F2937?text=Blog+Image+1" alt="Blog Post Image 1" class="w-full h-48 object-cover"/>
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">
+                        <a href="#">Category 1</a>, <a href="#">Category 2</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Latest Post 1 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 31, 2024 • 7 min read</p>
+                </div>
+            </div>
+             <div class="rounded-lg overflow-hidden border-b border-gray-200">
+                 <img src="https://placehold.co/600x400/E5E7EB/1F2937?text=Blog+Image+2" alt="Blog Post Image 2" class="w-full h-48 object-cover"/>
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">
+                        <a href="#">Category 3</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Latest Post 2 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 30, 2024 • 5 min read</p>
+                </div>
+            </div>
+             <div class="rounded-lg overflow-hidden border-b border-gray-200">
+                <div class="text-xs text-gray-500 mb-2">
+                     <a href="#">Category A</a>, <a href="#">Category C</a>
+                </div>
+                <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 3 Title</a></h4>
+                <p class="text-sm text-gray-600">August 29, 2024 • 6 min read</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-12 md:py-16 w-full md:w-4/5">
+            <h3 class="text-xl font-semibold mb-8">• WORK EXPERIENCE</h3>
+            <div class="space-y-8">
+                <div class="flex flex-col md:flex-row items-start md:items-center p-6 rounded-lg border-b border-gray-200">
+                    <div class="flex items-center mb-4 md:mb-0 md:w-1/4">
+                       <span class="inline-block bg-purple-200 text-purple-800 text-sm px-3 py-1 rounded-full mr-4">Developer</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="text-lg font-semibold">Code Crafters</h4>
+                            <span class="text-sm text-gray-600">2024 - Present</span>
+                        </div>
+                        <p class="text-gray-700">An innovative company specializing in high-quality software development.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-start md:items-center p-6 rounded-lg border-b border-gray-200">
+                    <div class="flex items-center mb-4 md:mb-0 md:w-1/4">
+                         <span class="inline-block bg-green-200 text-green-800 text-sm px-3 py-1 rounded-full mr-4">Developer</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="text-lg font-semibold">Logic Forge</h4>
+                            <span class="text-sm text-gray-600">2023 - 2024</span>
+                        </div>
+                        <p class="text-gray-700">Software development and consulting in the field of information technology.</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-start md:items-center p-6 rounded-lg border-b border-gray-200">
+                    <div class="flex items-center mb-4 md:mb-0 md:w-1/4">
+                         <span class="inline-block bg-blue-200 text-blue-800 text-sm px-3 py-1 rounded-full mr-4">Software Tester</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="text-lg font-semibold">Byte Bloom</h4>
+                            <span class="text-sm text-gray-600">2023 - 2023</span>
+                        </div>
+                        <p class="text-gray-700">A software development company specializing in creating innovative business solutions.</p>
+                    </div>
+                </div>
+
+                 <div class="flex flex-col md:flex-row items-start md:items-center p-6 rounded-lg border-b border-gray-200">
+                    <div class="flex items-center mb-4 md:mb-0 md:w-1/4">
+                         <span class="inline-block bg-red-200 text-red-800 text-sm px-3 py-1 rounded-full mr-4">Designer</span>
+                    </div>
+                    <div class="md:w-3/4">
+                        <div class="flex justify-between items-center mb-2">
+                            <h4 class="text-lg font-semibold">Pixel Pioneers</h4>
+                            <span class="text-sm text-gray-600">2020 - 2023</span>
+                        </div>
+                        <p class="text-gray-700">A software development company specializing in creating innovative business solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-12 md:py-16 w-full md:w-4/5">
+            <div class="flex justify-between items-center mb-8">
+                <h3 class="text-xl font-semibold">• FACTS ABOUT PROGRAMMING</h3>
+                 <a href="#" class="text-purple-600 hover:underline">View All</a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category A</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 1 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 31, 2024 • 3 min read</p>
+                </div>
+                 <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category B</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 2 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 30, 2024 • 2 min read</p>
+                </div>
+                 <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category A</a>, <a href="#">Category C</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 3 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 29, 2024 • 4 min read</p>
+                </div>
+                 <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category B</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 4 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 28, 2024 • 3 min read</p>
+                </div>
+                 <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category C</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 5 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 27, 2024 • 2 min read</p>
+                </div>
+                 <div class="p-6 rounded-lg border-b border-gray-200">
+                    <div class="text-xs text-gray-500 mb-2">
+                         <a href="#">Category A</a>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2"><a href="#">Sample Programming Fact 6 Title</a></h4>
+                    <p class="text-sm text-gray-600">August 26, 2024 • 3 min read</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-purple-100 py-16 md:py-24 text-center">
+            <div class="container mx-auto px-4 w-full md:w-4/5">
+                <h3 class="text-3xl md:text-4xl font-bold mb-4">Subscribe to My Newsletter</h3>
+                <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                    Subscribe to my email newsletter to get the latest posts delivered right to your email. Pure inspiration, zero spam.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+                    <input
+                        type="email"
+                        placeholder="Your E-mail"
+                        class="px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 w-full md:w-auto"
+                    />
+                    <button class="bg-purple-purple-600 text-white px-6 py-3 rounded-full text-lg hover:bg-purple-700 transition duration-300 ease-in-out w-full md:w-auto">
+                        Subscribe >
+                    </button>
+                </div>
+                <p class="text-sm text-gray-600 mt-4">
+                    You agree to the <a href="#" class="underline hover:text-purple-800">Terms of Use</a> and <a href="#" class="underline hover:text-purple-800">Privacy Policy</a>
+                </p>
+            </div>
+        </section>
+
+        <footer class="bg-white py-12 md:py-16">
+            <div class="container mx-auto px-4 w-full md:w-4/5">
+                <div class="flex flex-col md:flex-row justify-between items-center md:items-start border-b border-gray-200 pb-8 mb-8">
+                    <div class="mb-8 md:mb-0 md:w-1/3">
+                        <div class="text-xl font-bold mb-2">ANDO.</div>
+                        <p class="text-gray-600 text-sm">
+                            A modern lightweight WordPress theme with lots of options, making it easy to customize.
+                        </p>
+                    </div>
+                    <nav class="flex flex-wrap justify-center md:justify-start space-x-6 mb-8 md:mb-0 md:w-1/3">
+                         <a href="#" class="hover:text-gray-900">Rules</a>
+                         <a href="#" class="hover:text-gray-900">Projects</a>
+                         <a href="#" class="hover:text-gray-900">Contact</a>
+                         <a href="#" class="hover:text-gray-900">Buy Now</a>
+                    </nav>
+                    <div class="flex space-x-4 md:w-1/3 justify-center md:justify-end">
+                         <a href="#" class="text-gray-600 hover:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                         <a href="#" class="text-gray-600 hover:text-gray-900">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 3 8.38 8.38 0 0 0 12 2.15c-2.44 0-4.97.9-6.92 2.85A5.07 5.07 0 0 0 4 3c0 0-1.09 1.65-1 5.05A5.44 5.44 0 0 0 5 12.22c0 4.47 3.3 5.66 6.44 7A3.37 3.37 0 0 0 18 18.13V22"/></svg>
+                        </a>
+                         <a href="#" class="text-gray-600 hover:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+                    <div>© 2024 Ando. All Rights Reserved.</div>
+                    <div class="flex space-x-4 mt-2 md:mt-0">
+                        <a href="#" class="hover:underline">Terms of Use</a>
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
